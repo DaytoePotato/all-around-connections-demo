@@ -83,7 +83,7 @@ function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav className="fixed top-14 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -148,7 +148,7 @@ function Navigation() {
 // Hero Section
 function HeroSection() {
   return (
-    <section id="home" className="pt-32 pb-20 md:pt-40 md:pb-32 bg-gradient-to-br from-[var(--surface)] via-white to-blue-50">
+    <section id="home" className="pt-40 pb-20 md:pt-40 md:pb-32 bg-gradient-to-br from-[var(--surface)] via-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">

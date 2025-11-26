@@ -101,7 +101,7 @@ function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[var(--background)]/80 backdrop-blur-xl border-b border-[var(--border)]">
+    <nav className="fixed top-14 left-0 right-0 z-50 bg-[var(--background)]/80 backdrop-blur-xl border-b border-[var(--border)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <a href="#home" className="flex items-center space-x-3 group">
@@ -166,7 +166,7 @@ function Navigation() {
 // Hero Section
 function HeroSection() {
   return (
-    <section id="home" className="relative pt-32 pb-20 md:pt-40 md:pb-32 min-h-screen flex items-center">
+    <section id="home" className="relative pt-40 pb-20 md:pt-40 md:pb-32 min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
