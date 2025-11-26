@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function VersionSwitcher() {
@@ -20,7 +19,7 @@ export default function VersionSwitcher() {
           </div>
 
           <div className="flex gap-2">
-            <Link
+            <a
               href="/professional"
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                 isProfessional
@@ -29,8 +28,8 @@ export default function VersionSwitcher() {
               }`}
             >
               Professional Version
-            </Link>
-            <Link
+            </a>
+            <a
               href="/tech"
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                 isTech
@@ -39,7 +38,7 @@ export default function VersionSwitcher() {
               }`}
             >
               Tech Version
-            </Link>
+            </a>
           </div>
         </div>
       </div>
