@@ -5,5 +5,5 @@ export default function ProfessionalLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return <div className="professional-version">{children}</div>;
 }

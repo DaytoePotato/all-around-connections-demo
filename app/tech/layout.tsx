@@ -5,5 +5,5 @@ export default function TechLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return <div className="tech-version">{children}</div>;
 }
