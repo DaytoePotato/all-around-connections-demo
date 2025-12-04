@@ -474,7 +474,7 @@ function ContactSection() {
             <div className="space-y-6">
               {[
                 { icon: <PhoneIcon />, label: "Voice Link", value: "(555) 123-4567" },
-                { icon: <EmailIcon />, label: "Data Transfer", value: "info@allaroundconnections.net" },
+                { icon: <EmailIcon />, label: "Data Transfer", value: "demo@example.com" },
                 { icon: <LocationIcon />, label: "Base Station", value: "Your Local Tech Partner" },
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-4 group">

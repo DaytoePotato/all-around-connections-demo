@@ -497,7 +497,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="text-white/60 text-sm">Email Us</p>
-                  <p className="text-white font-semibold">info@allaroundconnections.net</p>
+                  <p className="text-white font-semibold">demo@example.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
